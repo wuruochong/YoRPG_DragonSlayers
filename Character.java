@@ -1,13 +1,13 @@
 //Team DragonSlayers -- James Hua, Nick Ng, Ruochong Wu
 //APCS1 pd10
-//HW30 -- Ye Olde Role Playing Game, Expanded
+//HW31 -- Ye Olde Role Playing Game, Unchained
 //2015-11-15
 
 /*=============================================
   class Character -- superclass for combatants in Ye Olde RPG
   =============================================*/
 
-public class Character {
+public abstract class Character {
 
     // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
     protected int _hitPts;
@@ -76,24 +76,10 @@ public class Character {
     public void lowerHP( int damageInflicted ) {
 	_hitPts = _hitPts - damageInflicted;
     }
-    public void normalize(){
-	_attack = .4;
-	_defense = 40;
-    }
-    public void specialize(){
-	_attack = .75;
-	_defense =20;
-    }
-    public static String about(){
-	String lol;
-	lol = "Warrior: Good all around choice - strong, dexterous, fun \n \n";
-        lol += "Mage: Gandalf and Dumbledore - say no more \n \n";
-        lol += "Rogue: Who needs strength or magic when ur stats are op... (dexterity is nice tho) \n \n";
-	lol += "Marksman: A standard ranger-type character who wields a mighty longbow but who thinks armor is for sissies. \n \n";
-	lol += "Deprived: The only truly manly character in the game - no weapons, no armor, just awesomeness. \n \n";
-        lol += "Monster: You can't play them but you get to kill a bunch of these guys while completing your quests. YAY";
-	return lol;
-	
-    }
+    
+    public abstract void normalize();
+    public abstract void specialize();
+    
+    public abstract String about();
 
 }//end class Character
