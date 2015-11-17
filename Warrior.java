@@ -56,4 +56,7 @@ public class Warrior extends Character {
 	_defense = 40;
     }
 
+    public static String about(){
+	return "Warrior: Good all around choice - strong, dexterous, fun";
+    }
 }//end class Warrior

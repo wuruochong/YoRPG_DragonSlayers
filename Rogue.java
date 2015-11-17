@@ -30,4 +30,8 @@ public class Rogue extends Character {
 	_attack = .6;
 	_defense = 30;
     }
+
+    public static String about(){
+	return "Rogue: Who needs strength or magic when ur stats are op... (dexterity is nice tho)";
+    }
 }

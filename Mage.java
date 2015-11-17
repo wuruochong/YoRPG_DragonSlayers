@@ -30,4 +30,8 @@ public class Mage extends Character{
 	_attack = .4;
 	_defense = 50;
     }
+
+    public static String about(){
+	return "Mage: Gandalf and Dumbledore - say no more";
+    }
 }

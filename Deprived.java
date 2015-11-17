@@ -56,4 +56,8 @@ public class Deprived extends Character {
 	_defense = 20;
     }
 
+    public static String about(){
+	return "Deprived: The only truly manly character in the game - no weapons, no armor, just awesomeness.";
+    }
+
 }//end class Warrior

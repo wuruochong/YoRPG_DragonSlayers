@@ -28,5 +28,9 @@ public class Monster extends Character {
 	_attack = 1;
     }
 
+    public static String about(){
+	return "Monster: You can't play them but you get to kill a bunch of these guys while completing your quests. YAY!";
+    }
+
 
 }//end class Monster

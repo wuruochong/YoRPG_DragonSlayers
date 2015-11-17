@@ -56,4 +56,7 @@ public class Marksman extends Character {
 	_defense = 25;
     }
 
+    public static String about(){
+	return "Marksman: A standard ranger-type character who wields a mighty longbow but who thinks armor is for the weak.";
+    }
 }//end class Marksman
