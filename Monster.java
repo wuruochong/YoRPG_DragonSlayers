@@ -1,7 +1,7 @@
 //Team DragonSlayers -- James Hua, Nick Ng, Ruochong Wu
 //APCS1 pd10
-//HW30 -- Ye Olde Role Playing Game, Expanded
-//2015-11-15
+//HW31 -- Ye Olde Role Playing Game, Unchained
+//2015-11-16
 
 /*=============================================
   class Monster -- Represents random incarnations of 
@@ -14,7 +14,7 @@ public class Monster extends Character {
     // inherited from superclass
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+    
     /*=============================================
       default constructor
       pre:  instance vars are declared
@@ -27,10 +27,18 @@ public class Monster extends Character {
 	_defense = 20;
 	_attack = 1;
     }
-
-    public static String about(){
+    
+    public String about(){
 	return "Monster: You can't play them but you get to kill a bunch of these guys while completing your quests. YAY!";
     }
-
+    public void specialize(){
+	_attack = .75;
+	_defense = 20;
+    }
+    public void normalize(){
+	_strength = 20 + (int)( Math.random() * 45 ); // [20,65)
+	_defense = 20;
+    }
+	
 
 }//end class Monster

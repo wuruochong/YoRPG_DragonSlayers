@@ -1,7 +1,7 @@
 //Team DragonSlayers -- James Hua, Nick Ng, Ruochong Wu
 //APCS1 pd10
-//HW30 -- Ye Olde Role Playing Game, Expanded
-//2015-11-15
+//HW31 -- Ye Olde Role Playing Game, Unchained
+//2015-11-16
 
 /*=============================================
   class Warrior -- protagonist of Ye Olde RPG
@@ -56,7 +56,7 @@ public class Warrior extends Character {
 	_defense = 40;
     }
 
-    public static String about(){
+    public String about(){
 	return "Warrior: Good all around choice - strong, dexterous, fun";
     }
 }//end class Warrior

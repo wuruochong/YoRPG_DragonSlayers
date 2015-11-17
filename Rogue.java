@@ -1,7 +1,7 @@
 //Team DragonSlayers -- James Hua, Nick Ng, Ruochong Wu
 //APCS1 pd10
-//HW30 -- Ye Olde Role Playing Game, Expanded
-//2015-11-15
+//HW31 -- Ye Olde Role Playing Game, Unchained
+//2015-11-16
 
 public class Rogue extends Character {
     private String _name = "J. Doe";
@@ -31,7 +31,7 @@ public class Rogue extends Character {
 	_defense = 30;
     }
 
-    public static String about(){
+    public String about(){
 	return "Rogue: Who needs strength or magic when ur stats are op... (dexterity is nice tho)";
     }
 }

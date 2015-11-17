@@ -1,7 +1,7 @@
 //Team DragonSlayers -- James Hua, Nick Ng, Ruochong Wu
 //APCS1 pd10
 //HW31 -- Ye Olde Role Playing Game, Unchained
-//2015-11-15
+//2015-11-16
 
 /*=============================================
   class Character -- superclass for combatants in Ye Olde RPG
